@@ -20,7 +20,7 @@ public class Evaluacion : MonoBehaviour
         dias = DiasTot - DiasDeLluvia;
         CostoDia = Taxis *(6*130);
         TotalDias = CostoDia * dias;
-        CostoLluvia = Taxis * (7 * 130);
+        CostoLluvia = Taxis * (7.333f * 130);
         TotalLluvia = CostoLluvia * DiasDeLluvia;
         Costo = TotalDias + TotalLluvia;
 
